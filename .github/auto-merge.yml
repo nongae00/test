@@ -44,14 +44,6 @@ blockingLabels:
 mergeMethod: merge
 
 
-# Will merge whenever the above conditions are met, but also
-# the owner has approved or merge label was added.
-rules:
-- minApprovals:
-    OWNER: 1
-- requiredLabels:
-  - merge
-
 # Optionally specify the merge commit message format. The following template
 # tags are supported:
 # * {title}: The pull request title at the moment it is merged
